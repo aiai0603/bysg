@@ -13,7 +13,7 @@ class Dashboard extends React.Component {
         return (
             <div className="gutter-example button-demo">
                 <BreadcrumbCustom />
-                <Row gutter={10}>
+                {/* <Row gutter={10}>
                     <Col className="gutter-row" md={4}>
                         <div className="gutter-box">
                             <Card bordered={false}>
@@ -164,7 +164,7 @@ class Dashboard extends React.Component {
                             </Card>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
             </div>
         )
     }

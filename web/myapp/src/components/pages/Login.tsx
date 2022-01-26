@@ -8,7 +8,7 @@ import { connectAlita } from 'redux-alita';
 import { RouteComponentProps } from 'react-router';
 import { FormProps } from 'antd/lib/form';
 import umbrella from 'umbrella-storage';
-import { get, post } from '../../service/tools';
+import { post } from '../../service/tools';
 
 const FormItem = Form.Item;
 type LoginProps = {
@@ -17,14 +17,21 @@ type LoginProps = {
 } & RouteComponentProps &
     FormProps;
 class Login extends React.Component<LoginProps> {
+    componentDidMount() {
+        const { setAlitaState } = this.props;
+        setAlitaState({ stateName: 'auth', data: null });
+    }
     componentDidUpdate(prevProps: LoginProps) {
         // React 16.3+弃用componentWillReceiveProps
-        const { history } = this.props;
+        const { auth: nextAuth = {}, history } = this.props;
         // const { history } = this.props;
-        if (umbrella.getLocalStorage('user')) {
+        if (nextAuth.data) {
+            // 判断是否登陆
+            umbrella.setLocalStorage('user', JSON.stringify(nextAuth.data));
             history.push('/');
         }
     }
+   
     handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         this.props.form!.validateFields((err, values) => {
@@ -50,9 +57,7 @@ class Login extends React.Component<LoginProps> {
                         message: res.rspMsg,
                     });
                 } else {
-                    umbrella.getLocalStorage('user', res.data);
-
-                    const { auth } = this.props;
+                    setAlitaState({ stateName: 'auth' ,data: res.data});
 
                     notification.open({
                         message: res.rspMsg,

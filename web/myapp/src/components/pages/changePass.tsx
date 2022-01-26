@@ -3,63 +3,57 @@ import {
     Card,
     Form,
     Input,
-    Tooltip,
-    Icon,
-    Cascader,
     Select,
     Row,
     Col,
-    Checkbox,
     Button,
+    notification,
 } from 'antd';
-
-
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { FormProps } from 'antd/lib/form';
+import { get } from '../../service/tools';
+import umbrella from 'umbrella-storage';
+import { RouteComponentProps } from 'react-router';
 const FormItem = Form.Item;
-const Option = Select.Option;
 
-const residences = [
-    {
-        value: 'zhejiang',
-        label: 'Zhejiang',
-        children: [
-            {
-                value: 'hangzhou',
-                label: 'Hangzhou',
-                children: [
-                    {
-                        value: 'xihu',
-                        label: 'West Lake',
-                    },
-                ],
-            },
-        ],
-    },
-    {
-        value: 'jiangsu',
-        label: 'Jiangsu',
-        children: [
-            {
-                value: 'nanjing',
-                label: 'Nanjing',
-                children: [
-                    {
-                        value: 'zhonghuamen',
-                        label: 'Zhong Hua Men',
-                    },
-                ],
-            },
-        ],
-    },
-];
-
-type BasicFormProps = {} & FormProps;
+type BasicFormProps = {} & FormProps & RouteComponentProps;
 
 class BasicForms extends Component<BasicFormProps> {
     state = {
         confirmDirty: false,
+        loading: false,
+        data: {
+            adminId:'',
+            role:0
+        }
+    }
+
+    componentDidMount() {
+        this.start();
     };
+    start = () => {
+        this.setState({ loading: true });
+        get({
+            url: 'http://localhost:8080/admin/find?username='+umbrella.getLocalStorage('user').adminId,
+        }).then((res) => {
+            if (!res) {
+                notification.open({
+                    message: '后台异常',
+                });
+                return 0;
+            }
+            if (res.rspCode !== '200') {
+                notification.open({
+                    message: res.rspMsg,
+                });
+            } else {
+               this.setState({
+                   data:res.data
+               })
+            }
+        },)
+    };
+
     handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         this.props.form &&
@@ -81,19 +75,13 @@ class BasicForms extends Component<BasicFormProps> {
             callback();
         }
     };
-    checkConfirm = (rule: any, value: any, callback: any) => {
-        const form = this.props.form;
-        if (value && this.state.confirmDirty) {
-            form!.validateFields(['confirm'], { force: true });
-        }
-        callback();
-    };
+
     render() {
         const { getFieldDecorator } = this.props.form!;
         const formItemLayout = {
             labelCol: {
                 xs: { span: 24 },
-                sm: { span: 8 },
+                sm: { span: 5 },
             },
             wrapperCol: {
                 xs: { span: 24 },
@@ -108,28 +96,24 @@ class BasicForms extends Component<BasicFormProps> {
                 },
                 sm: {
                     span: 14,
-                    offset: 8,
+                    offset: 10,
                 },
             },
         };
-      
+       
         return (
             <div className="gutter-example">
-                <BreadcrumbCustom first="修改密码" />
+                <BreadcrumbCustom first="个人信息" />
                 <Row gutter={16}>
-                    <Col className="gutter-row" md={12}>
+                    <Col className="gutter-row" md={24}>
                         <div className="gutter-box">
-                            <Card title="修改密码" bordered={false}>
+                            <Card title="个人信息" bordered={false}>
                                 <Form onSubmit={this.handleSubmit}>
-                                    <FormItem {...formItemLayout} label="邮箱" hasFeedback>
-                                        {getFieldDecorator('email', {
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: '请输入邮箱地址!',
-                                                },
-                                            ],
-                                        })(<Input />)}
+                                    <FormItem {...formItemLayout} label="账号" hasFeedback>
+                                        {this.state.data.adminId}
+                                    </FormItem>
+                                    <FormItem {...formItemLayout} label="等级" hasFeedback>
+                                        {this.state.data.role == 1?'超级管理员':'管理员'}
                                     </FormItem>
                                     <FormItem {...formItemLayout} label="密码" hasFeedback>
                                         {getFieldDecorator('password', {
@@ -138,9 +122,7 @@ class BasicForms extends Component<BasicFormProps> {
                                                     required: true,
                                                     message: '请输入密码!',
                                                 },
-                                                {
-                                                    validator: this.checkConfirm,
-                                                },
+                                                
                                             ],
                                         })(<Input type="password" />)}
                                     </FormItem>
@@ -163,21 +145,21 @@ class BasicForms extends Component<BasicFormProps> {
                                         )}
                                     </FormItem>
                                     
+                                    
+                                   
+                                   
                                     <FormItem {...tailFormItemLayout}>
                                         <Button type="primary" htmlType="submit" size="large">
-                                            注册
-                                        </Button>
-                                        <Button type="primary" htmlType="submit" size="large">
-                                            取消
+                                            修改密码
                                         </Button>
                                     </FormItem>
                                 </Form>
                             </Card>
                         </div>
                     </Col>
-                  
+                    
                 </Row>
-                
+               
             </div>
         );
     }
@@ -186,4 +168,5 @@ class BasicForms extends Component<BasicFormProps> {
 const changePass = Form.create()(BasicForms);
 
 export default changePass;
+
 

@@ -23,17 +23,35 @@ public class AdminController {
 
     @RequestMapping(value="/login",method = RequestMethod.POST)
     Response adminController(@RequestBody Map<String, Object> map){
-        System.out.println(map);
+
         AdminEntity adminEntity= adminService.findById(map.get("username").toString());
+        if(adminEntity==null){
+            return new ResponseData("405","账号或者密码错误",null);
+        }
+        else{
+            if(adminEntity.getAdminPassword().equals(map.get("password").toString())){
+                if(adminEntity.getDeleteFlag()==1){
+                    return new ResponseData("400","账号被封禁", null);
+                }
+                return new ResponseData("200","登录成功", adminEntity);
+            }else{
+                return new ResponseData("400","请输入正确的密码",null);
+            }
+        }
+
+    }
+
+    @RequestMapping(value="/find",method = RequestMethod.GET)
+    Response findAdmin(@RequestParam String username){
+
+        AdminEntity adminEntity= adminService.findById(username);
         if(adminEntity==null){
             return new ResponseData("405","找不到用户",null);
         }
         else{
-            if(adminEntity.getAdminPassword().equals(map.get("password").toString())){
-                return new ResponseData("200","登录成功", adminEntity);
-            }else{
-                return new ResponseData("400","登录失败，请确认账号密码正确",null);
-            }
+
+            return new ResponseData("200","查找成功", adminEntity);
+
         }
 
     }
