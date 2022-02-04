@@ -16,4 +16,4 @@ class AuthWidget extends Component<AuthWidgetProps> {
     }
 }
 
-export default connectAlita(['auth'])(AuthWidget);
+export default connectAlita(['aurh'])(AuthWidget);

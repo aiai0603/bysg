@@ -12,6 +12,7 @@ public class HistoryEntity {
     private Timestamp finishTime;
     private int deleteFlag;
     private String name;
+    private Integer roomId;
 
     @Id
     @Column(name = "id")
@@ -78,5 +79,15 @@ public class HistoryEntity {
     @Override
     public int hashCode() {
         return Objects.hash(id, createTime, finishTime, deleteFlag, name);
+    }
+
+    @Basic
+    @Column(name = "room_id")
+    public Integer getRoomId() {
+        return roomId;
+    }
+
+    public void setRoomId(Integer roomId) {
+        this.roomId = roomId;
     }
 }

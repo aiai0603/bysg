@@ -28,14 +28,17 @@ type HeaderCustomState = {
     visible: boolean;
 };
 
+
 class HeaderCustom extends Component<HeaderCustomProps, HeaderCustomState> {
     state = {
         user: '',
         visible: false,
     };
+
+    
     
     componentDidMount() {
-        console.log(umbrella.getLocalStorage('user'))
+        
         if(!umbrella.getLocalStorage('user')){
             this.props.history.push('/login')
         }else{
@@ -60,7 +63,7 @@ class HeaderCustom extends Component<HeaderCustomProps, HeaderCustomState> {
         this.props.history.push('/login');
     };
     password = () => {
-        this.props.history.push('/password');
+        this.props.history.push('/app/pages/changePass');
     };
     popoverHide = () => {
         this.setState({
@@ -114,10 +117,10 @@ class HeaderCustom extends Component<HeaderCustomProps, HeaderCustomState> {
                         <MenuItemGroup title="用户中心">
                             <Menu.Item key="setting:1">你好 - {this.state.user}</Menu.Item>
                             <Menu.Item key="setting:2">
-                                <span onClick={this.logout}>个人信息</span>
+                                <span onClick={this.password}>个人信息</span>
                             </Menu.Item>
                             <Menu.Item key="logout">
-                                <span onClick={this.password}>退出登录</span>
+                                <span onClick={this.logout}>退出登录</span>
                             </Menu.Item>
                         </MenuItemGroup>
                       

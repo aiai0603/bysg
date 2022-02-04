@@ -3,7 +3,6 @@ import {
     Card,
     Form,
     Input,
-    Select,
     Row,
     Col,
     Button,
@@ -11,9 +10,9 @@ import {
 } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { FormProps } from 'antd/lib/form';
-import { get } from '../../service/tools';
+import { get, post } from '../../service/tools';
 import umbrella from 'umbrella-storage';
-import { RouteComponentProps } from 'react-router';
+import { RouteComponentProps, withRouter } from 'react-router';
 const FormItem = Form.Item;
 
 type BasicFormProps = {} & FormProps & RouteComponentProps;
@@ -24,17 +23,21 @@ class BasicForms extends Component<BasicFormProps> {
         loading: false,
         data: {
             adminId:'',
-            role:0
+            role:0,
+            adminPassword:"",
+            state:0
         }
-    }
-
+    };
     componentDidMount() {
         this.start();
+    };
+    back = () => {
+        this.props.history.go(-1);
     };
     start = () => {
         this.setState({ loading: true });
         get({
-            url: 'http://localhost:8080/admin/find?username='+umbrella.getLocalStorage('user').adminId,
+            url: 'http://localhost:8080/admin/find?id='+umbrella.getLocalStorage('user').id,
         }).then((res) => {
             if (!res) {
                 notification.open({
@@ -56,10 +59,45 @@ class BasicForms extends Component<BasicFormProps> {
 
     handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
+       
         this.props.form &&
             this.props.form.validateFieldsAndScroll((err, values) => {
+                let adminEntity = this.state.data;
+                adminEntity.adminPassword = values.password
+                
                 if (!err) {
-                    console.log('Received values of form: ', values);
+                    post({
+                        url: 'http://localhost:8080/admin/changePass',
+                        data: adminEntity
+                    }).then((res) => {
+                        if (!res) {
+                            notification.open({
+                                message: '后台异常',
+                            });
+                            return 0;
+                        }
+                        if (res.rspCode !== '200') {
+                            notification.open({
+                                message: res.rspMsg,
+                            });
+
+                           
+                        } else {
+                        
+                            notification.open({
+                                message: res.rspMsg,
+                            });
+                            umbrella.removeLocalStorage('user');
+                            this.props.history.push('/login');
+        
+                            
+                        }
+                    });
+                }else{
+                    notification.open({
+                        message: '修改失败',
+                    });
+                    return 0;
                 }
             });
     };
@@ -70,7 +108,7 @@ class BasicForms extends Component<BasicFormProps> {
     checkPassword = (rule: any, value: any, callback: any) => {
         const form = this.props.form;
         if (value && value !== form!.getFieldValue('password')) {
-            callback('Two passwords that you enter is inconsistent!');
+            callback('两次密码不一致');
         } else {
             callback();
         }
@@ -115,6 +153,9 @@ class BasicForms extends Component<BasicFormProps> {
                                     <FormItem {...formItemLayout} label="等级" hasFeedback>
                                         {this.state.data.role == 1?'超级管理员':'管理员'}
                                     </FormItem>
+                                    <FormItem {...formItemLayout} label="等级" hasFeedback>
+                                        {this.state.data.state == 1?'被封禁':'正常'}
+                                    </FormItem>
                                     <FormItem {...formItemLayout} label="密码" hasFeedback>
                                         {getFieldDecorator('password', {
                                             rules: [
@@ -144,14 +185,16 @@ class BasicForms extends Component<BasicFormProps> {
                                             />
                                         )}
                                     </FormItem>
-                                    
-                                    
-                                   
-                                   
+                                       
                                     <FormItem {...tailFormItemLayout}>
+                                        
                                         <Button type="primary" htmlType="submit" size="large">
                                             修改密码
                                         </Button>
+                                        <Button size="large" onClick={ this.back }>
+                                            取消
+                                        </Button>
+
                                     </FormItem>
                                 </Form>
                             </Card>
@@ -165,8 +208,7 @@ class BasicForms extends Component<BasicFormProps> {
     }
 }
 
-const changePass = Form.create()(BasicForms);
 
-export default changePass;
+export default (Form.create()(withRouter(BasicForms)));
 
 

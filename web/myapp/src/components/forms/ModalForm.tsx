@@ -2,8 +2,9 @@
  * Created by hao.cheng on 2017/4/15.
  */
 import React, { Component } from 'react';
-import { Button, Modal, Form, Input, Radio } from 'antd';
+import { Button, Modal, Form, Input, Radio, notification } from 'antd';
 import { FormProps } from 'antd/lib/form';
+import { post } from '../../service/tools';
 const FormItem = Form.Item;
 
 type CollectionCreateFormProps = {
@@ -19,30 +20,33 @@ const CollectionCreateForm: any = Form.create()((props: CollectionCreateFormProp
     return (
         <Modal
             visible={visible}
-            title="创建新收藏"
+            title="新建管理员"
             okText="创建"
+            cancelText="取消"
             onCancel={onCancel}
             onOk={onCreate}
         >
             <Form layout="vertical">
-                <FormItem label="标题">
-                    {getFieldDecorator('title', {
-                        rules: [{ required: true, message: '请输入收藏的标题!' }],
+                <FormItem label="账号">
+                    {getFieldDecorator('adminId', {
+                        rules: [{ required: true, message: '请输入账号!' }],
                     })(<Input />)}
                 </FormItem>
-                <FormItem label="描述">
-                    {getFieldDecorator('description')(<Input type="textarea" />)}
+                <FormItem label="密码">
+                    {getFieldDecorator('adminPassword', {
+                        rules: [{ required: true, message: '请输入密码!' }],
+                    })(<Input />)}
                 </FormItem>
                 <FormItem
                     className="collection-create-form_last-form-item"
                     style={{ marginBottom: 0 }}
                 >
-                    {getFieldDecorator('modifier', {
-                        initialValue: 'public',
+                    {getFieldDecorator('role', {
+                        initialValue: '1',
                     })(
                         <Radio.Group>
-                            <Radio value="public">公开</Radio>
-                            <Radio value="private">私有</Radio>
+                            <Radio value="1">超级管理员</Radio>
+                            <Radio value="2">普通管理员</Radio>
                         </Radio.Group>
                     )}
                 </FormItem>
@@ -65,13 +69,40 @@ class ModalForm extends Component {
     handleCreate = () => {
         const form = this.form;
         form.validateFields((err: any, values: any) => {
-            if (err) {
-                return;
+            values.role = parseInt(values.role)
+            values.deleteFlag = 0
+            values.state = 0
+            
+            if (!err) {
+                post({
+                    url: 'http://localhost:8080/admin/create',
+                    data: values,
+                }).then((res) => {
+                    if (!res) {
+                        notification.open({
+                            message: '后台异常',
+                        });
+                        return 0;
+                    }
+                    if (res.rspCode !== '200') {
+                        notification.open({
+                            message: res.rspMsg,
+                        });
+                    } else {
+                        notification.open({
+                            message: res.rspMsg,
+                        });
+                        form.resetFields();
+                        this.setState({ visible: false });
+                    }
+                });
+            } else {
+                notification.open({
+                    message: '修改失败',
+                });
+                return 0;
             }
-
-            console.log('Received values of form: ', values);
-            form.resetFields();
-            this.setState({ visible: false });
+           
         });
     };
     saveFormRef = (form: any) => {
@@ -79,9 +110,9 @@ class ModalForm extends Component {
     };
     render() {
         return (
-            <div>
+            <div >
                 <Button type="primary" onClick={this.showModal}>
-                    新建收藏
+                    添加数据
                 </Button>
                 <CollectionCreateForm
                     ref={this.saveFormRef}

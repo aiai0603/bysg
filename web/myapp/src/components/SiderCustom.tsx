@@ -85,7 +85,6 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
     };
     render() {
         const { selectedKey, openKeys, firstHide, collapsed } = this.state;
-        const { smenus } = this.props;
         return (
             <Sider
                 trigger={null}
@@ -96,7 +95,7 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
             >
                 <div className="logo" />
                 <SiderMenu
-                    menus={[...routes.menus, ...smenus.data]}
+                    menus={[...routes.menus]}
                     onClick={this.menuClick}
                     mode="inline"
                     selectedKeys={[selectedKey]}

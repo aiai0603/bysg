@@ -17,7 +17,7 @@ public class AopLog {
     ThreadLocal<Long> startTime = new ThreadLocal<>();
     //定义切点
     //定义切点的时候，切到practiceSystem下面时，会出现nullpointer的问题，但是切到controller下面时却可以正常运行
-    @Pointcut("execution(public * com.example.bysg.Controller..*.*(..))")
+    @Pointcut("execution(public * com.example.bysg.Controller.*.*(..))")
     public void aopWebLog() {
     }
 

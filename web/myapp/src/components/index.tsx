@@ -32,6 +32,11 @@ import MultipleMenu from './extension/MultipleMenu';
 import Sub1 from './smenu/Sub1';
 import Sub2 from './smenu/Sub2';
 import changePass from './pages/changePass';
+import AdminTable from './admin/adminTable';
+import ConferenceTable from './conference/ConferenceTable';
+import UserTable from './user/UserTable';
+import HistoryTable from './history/HistoryTable';
+import equipmentTable from './equipment/equipmentTable';
 
 const WysiwygBundle = Loadable({
     // 按需加载富文本配置
@@ -40,6 +45,11 @@ const WysiwygBundle = Loadable({
 });
 
 export default {
+    equipmentTable,
+    HistoryTable,
+    UserTable,
+    ConferenceTable,
+    AdminTable,
     BasicForm,
     BasicTable,
     AdvancedTable,

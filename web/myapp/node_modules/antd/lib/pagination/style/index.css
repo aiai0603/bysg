@@ -276,6 +276,12 @@
 .ant-pagination-options-quick-jumper input::-webkit-input-placeholder {
   color: #bfbfbf;
 }
+.ant-pagination-options-quick-jumper input:-moz-placeholder-shown {
+  text-overflow: ellipsis;
+}
+.ant-pagination-options-quick-jumper input:-ms-input-placeholder {
+  text-overflow: ellipsis;
+}
 .ant-pagination-options-quick-jumper input:placeholder-shown {
   text-overflow: ellipsis;
 }

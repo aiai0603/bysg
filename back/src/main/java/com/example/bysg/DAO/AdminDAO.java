@@ -15,10 +15,15 @@ public interface AdminDAO extends JpaRepository<AdminEntity,Integer> {
 
 
 
-    AdminEntity findByAdminId(String adminId);
+    AdminEntity findByIdAndDeleteFlag(int id,int deleteFlag);
 
+    AdminEntity findByadminIdAndDeleteFlag(String adminId,int deleteFlag);
 
+    AdminEntity save(AdminEntity adminEntity);
 
+    List<AdminEntity> findAllByDeleteFlag(int deleteFlag);
 
-
+    @Modifying
+    @Query(value = "update admin set delete_flag = 1  where id = ?",nativeQuery = true)
+    void deleteById(int id);
 }
