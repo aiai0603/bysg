@@ -2,28 +2,61 @@
  * Created by hao.cheng on 2017/5/3.
  */
 import React from 'react';
-import { Row, Col, Card, Timeline, Icon } from 'antd';
+import { Row, Col, Card, Icon, notification } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import EchartsViews from './EchartsViews';
 import EchartsProjects from './EchartsProjects';
-import b1 from '../../style/imgs/b1.jpg';
+import { get } from '../../service/tools';
+import umbrella from 'umbrella-storage';
 
 class Dashboard extends React.Component {
+    state = {
+        data:{
+            conference:0,
+            equipment:0,
+            user:0,
+            history:0
+        }
+    } 
+    componentDidMount() {
+        this.start();
+    }
+    start = () => {
+        get({
+            url: 'http://localhost:8080/admin/init?id='+(umbrella.getLocalStorage('user').role===2?umbrella.getLocalStorage('user').id:'0'),
+        }).then((res) => {
+            if (!res) {
+                notification.open({
+                    message: '后台异常',
+                });
+                return 0;
+            }
+            if (res.rspCode !== '200') {
+                notification.open({
+                    message: res.rspMsg,
+                });
+            } else {
+                this.setState({
+                    data: res.data,
+                });
+            }
+        });
+    }
     render() {
         return (
             <div className="gutter-example button-demo">
                 <BreadcrumbCustom />
-                {/* <Row gutter={10}>
+                <Row gutter={10}>
                     <Col className="gutter-row" md={4}>
                         <div className="gutter-box">
                             <Card bordered={false}>
                                 <div className="clear y-center">
                                     <div className="pull-left mr-m">
-                                        <Icon type="heart" className="text-2x text-danger" />
+                                        <Icon type="bank" className="text-2x text-danger" />
                                     </div>
                                     <div className="clear">
-                                        <div className="text-muted">收藏</div>
-                                        <h2>301</h2>
+                                        <div className="text-muted">会议室</div>
+                                        <h2>{this.state.data.conference}</h2>
                                     </div>
                                 </div>
                             </Card>
@@ -32,11 +65,11 @@ class Dashboard extends React.Component {
                             <Card bordered={false}>
                                 <div className="clear y-center">
                                     <div className="pull-left mr-m">
-                                        <Icon type="cloud" className="text-2x" />
+                                        <Icon type="cluster" className="text-2x" />
                                     </div>
                                     <div className="clear">
-                                        <div className="text-muted">云数据</div>
-                                        <h2>30122</h2>
+                                        <div className="text-muted">设备</div>
+                                        <h2>{this.state.data.equipment}</h2>
                                     </div>
                                 </div>
                             </Card>
@@ -47,11 +80,11 @@ class Dashboard extends React.Component {
                             <Card bordered={false}>
                                 <div className="clear y-center">
                                     <div className="pull-left mr-m">
-                                        <Icon type="camera" className="text-2x text-info" />
+                                        <Icon type="user" className="text-2x text-info" />
                                     </div>
                                     <div className="clear">
-                                        <div className="text-muted">照片</div>
-                                        <h2>802</h2>
+                                        <div className="text-muted">用户</div>
+                                        <h2>{this.state.data.user}</h2>
                                     </div>
                                 </div>
                             </Card>
@@ -60,11 +93,11 @@ class Dashboard extends React.Component {
                             <Card bordered={false}>
                                 <div className="clear y-center">
                                     <div className="pull-left mr-m">
-                                        <Icon type="mail" className="text-2x text-success" />
+                                        <Icon type="file" className="text-2x text-success" />
                                     </div>
                                     <div className="clear">
-                                        <div className="text-muted">邮件</div>
-                                        <h2>102</h2>
+                                        <div className="text-muted">使用次数</div>
+                                        <h2>{this.state.data.history}</h2>
                                     </div>
                                 </div>
                             </Card>
@@ -80,75 +113,26 @@ class Dashboard extends React.Component {
                 </Row>
                 <Row gutter={10}>
                     <Col className="gutter-row" md={8}>
-                        <div className="gutter-box">
+                    <div className="gutter-box">
                             <Card bordered={false}>
                                 <div className="pb-m">
-                                    <h3>任务</h3>
-                                    <small>10个已经完成，2个待完成，1个正在进行中</small>
+                                    <h3>访问量统计</h3>
+                                    <small>最近7天用户访问量</small>
                                 </div>
                                 <span className="card-tool"><Icon type="sync" /></span>
-                                <Timeline>
-                                    <Timeline.Item color="green">新版本迭代会</Timeline.Item>
-                                    <Timeline.Item color="green">完成网站设计初版</Timeline.Item>
-                                    <Timeline.Item color="red">
-                                        <p>联调接口</p>
-                                        <p>功能验收</p>
-                                    </Timeline.Item>
-
-                                    <Timeline.Item color="#108ee9">
-                                        <p>登录功能设计</p>
-                                        <p>权限验证</p>
-                                        <p>页面排版</p>
-                                    </Timeline.Item>
-                                </Timeline>
+                                <EchartsViews />
                             </Card>
                         </div>
                     </Col>
                     <Col className="gutter-row" md={8}>
-                        <div className="gutter-box">
+                    <div className="gutter-box">
                             <Card bordered={false}>
                                 <div className="pb-m">
-                                    <h3>消息栏</h3>
+                                    <h3>访问量统计</h3>
+                                    <small>最近7天用户访问量</small>
                                 </div>
                                 <span className="card-tool"><Icon type="sync" /></span>
-                                <ul className="list-group no-border">
-                                    <li className="list-group-item">
-                                        <span className="pull-left w-40 mr-m">
-                                            <img src={b1} className="img-responsive img-circle" alt="test" />
-                                        </span>
-                                        <div className="clear">
-                                            <span className="block">鸣人</span>
-                                            <span className="text-muted">终于当上火影了！</span>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <span className="pull-left w-40 mr-m">
-                                            <img src={b1} className="img-responsive img-circle" alt="test" />
-                                        </span>
-                                        <div className="clear">
-                                            <span className="block">佐助</span>
-                                            <span className="text-muted">吊车尾~~</span>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <span className="pull-left w-40 mr-m">
-                                            <img src={b1} className="img-responsive img-circle" alt="test" />
-                                        </span>
-                                        <div className="clear">
-                                            <span className="block">小樱</span>
-                                            <span className="text-muted">佐助，你好帅！</span>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <span className="pull-left w-40 mr-m">
-                                            <img src={b1} className="img-responsive img-circle" alt="test" />
-                                        </span>
-                                        <div className="clear">
-                                            <span className="block">雏田</span>
-                                            <span className="text-muted">鸣人君。。。那个。。。我。。喜欢你..</span>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <EchartsViews />
                             </Card>
                         </div>
                     </Col>
@@ -164,7 +148,7 @@ class Dashboard extends React.Component {
                             </Card>
                         </div>
                     </Col>
-                </Row> */}
+                </Row> 
             </div>
         )
     }

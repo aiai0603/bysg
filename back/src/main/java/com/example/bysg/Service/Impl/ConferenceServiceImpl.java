@@ -36,8 +36,13 @@ public class ConferenceServiceImpl implements ConferenceService {
     }
 
     @Override
-    public List<ConferenceEntity> findall() {
-        return conferenceDAO.findAllByDeleteFlag(0);
+    public List<ConferenceEntity> findall(int id) {
+        if(id == 0){
+            return conferenceDAO.findAllByDeleteFlag(0);
+        }else{
+            return conferenceDAO.findAllByDeleteFlagAndAdminId(0,id);
+        }
+
     }
 
     @Override

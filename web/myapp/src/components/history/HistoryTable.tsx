@@ -5,6 +5,7 @@ import React from 'react';
 import { Table, Button, Row, Col, Card, notification, Input, Icon, Avatar } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { get } from '../../service/tools';
+import umbrella from 'umbrella-storage';
 
 
 class HistoryTable extends React.Component {
@@ -37,7 +38,7 @@ class HistoryTable extends React.Component {
     start = () => {
         this.setState({ loading: true });
         get({
-            url: 'http://localhost:8080/history/findall',
+            url: 'http://localhost:8080/history/findall?id='+(umbrella.getLocalStorage('user').role===2?umbrella.getLocalStorage('user').id:'0'),
         }).then((res) => {
             if (!res) {
                 notification.open({

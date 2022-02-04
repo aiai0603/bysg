@@ -14,7 +14,7 @@ public interface EquipemntService {
 
     EquipmentEntity save(EquipmentEntity equipmentEntity);
 
-    List<EquipmentDTO> findall(int flag);
+    List<EquipmentDTO> findall(int flag,int id);
 
     void delete(int id);
 

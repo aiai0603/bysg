@@ -7,6 +7,7 @@ import BreadcrumbCustom from '../BreadcrumbCustom';
 import { get } from '../../service/tools';
 import ModalForm from './ModalForm';
 import UpdateForm from './UpdateForm';
+import umbrella from 'umbrella-storage';
 
 class ConferenceTable extends React.Component {
     state = {
@@ -38,7 +39,7 @@ class ConferenceTable extends React.Component {
     start = () => {
         this.setState({ loading: true });
         get({
-            url: 'http://localhost:8080/conference/findall',
+            url: 'http://localhost:8080/conference/findall?id='+(umbrella.getLocalStorage('user').role===2?umbrella.getLocalStorage('user').id:'0'),
         }).then((res) => {
             if (!res) {
                 notification.open({

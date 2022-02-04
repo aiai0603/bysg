@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { Button, Modal, Form, Input, Radio, notification, InputNumber } from 'antd';
 import { FormProps } from 'antd/lib/form';
 import { post } from '../../service/tools';
+import umbrella from 'umbrella-storage';
 const FormItem = Form.Item;
 
 type CollectionCreateFormProps = {
@@ -65,6 +66,7 @@ class ModalForm extends Component<any,any> {
         form.validateFields((err: any, values: any) => {
             values.deleteFlag = 0
             values.state = 0
+            values.adminId = umbrella.getLocalStorage('user').id
             
             if (!err) {
                 post({

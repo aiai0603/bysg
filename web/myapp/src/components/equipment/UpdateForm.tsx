@@ -57,13 +57,13 @@ const CollectionCreateForm: any = Form.create()((props: CollectionCreateFormProp
                 <FormItem
                     label="会议室"
                     className="collection-create-form_last-form-item"
-                    style={{ marginBottom: 0 }}
+                   
                 >
                     {getFieldDecorator('ConferenceRoom', {
                         rules: [{ required: true }],
                         initialValue: data ? data.conferenceRoom : 0,
                     })(
-                        <Select defaultValue="lucy" style={{ width: 120 }} onChange={handleSelect}>
+                        <Select defaultValue="0" onChange={handleSelect} style={{width:'100%'}}>
                              <Option key={0} value={0}>
                                     不分配
                             </Option>
@@ -74,7 +74,7 @@ const CollectionCreateForm: any = Form.create()((props: CollectionCreateFormProp
                 <FormItem
                     label="状态"
                     className="collection-create-form_last-form-item"
-                    style={{ marginBottom: 0 }}
+                   
                 >
                     {getFieldDecorator('state', {
                          rules: [{ required: true }],
@@ -132,7 +132,7 @@ class UpdateForm extends Component<any, any> {
         });
 
         get({
-            url: 'http://localhost:8080/conference/findall',
+            url: 'http://localhost:8080/conference/findall?id='+(umbrella.getLocalStorage('user').role===2?umbrella.getLocalStorage('user').id:'0'),
         }).then((res) => {
             if (!res) {
                 notification.open({

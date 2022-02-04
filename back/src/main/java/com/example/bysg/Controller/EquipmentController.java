@@ -59,8 +59,8 @@ public class EquipmentController {
     }
 
     @RequestMapping(value="/findall",method = RequestMethod.GET)
-    Response findAll(@RequestParam int flag){
-        List<EquipmentDTO> equipmentEntity= equipemntService.findall(flag);
+    Response findAll(@RequestParam int flag,@RequestParam int id){
+        List<EquipmentDTO> equipmentEntity= equipemntService.findall(flag,id);
         return new ResponseData("200","查找成功", equipmentEntity);
     }
 

@@ -4,7 +4,6 @@
 import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import { useAlita } from 'redux-alita';
-import umbrella from 'umbrella-storage';
 import AllComponents from '../components';
 import routesConfig, { IFMenuBase, IFMenu } from './config';
 import { checkLogin } from '../utils';
@@ -59,11 +58,11 @@ const CRouter = (props: CRouterProps) => {
         return r.component ? route(r) : subRoute(r);
     };
     const createRoute = (key: string) => routesConfig[key].map(createMenu);
-    const getAsyncMenus = () => smenus || umbrella.getLocalStorage('smenus') || [];
+  
     return (
         <Switch>
             {Object.keys(routesConfig).map((key) => createRoute(key))}
-            {getAsyncMenus().map(createMenu)}
+            
             <Route render={() => <Redirect to="/404" />} />
         </Switch>
     );

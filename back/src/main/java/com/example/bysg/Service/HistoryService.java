@@ -8,7 +8,7 @@ import java.util.List;
 public interface HistoryService {
 
 
-    List<HistoryDTO> findall();
+    List<HistoryDTO> findall(int id);
 
 
 }

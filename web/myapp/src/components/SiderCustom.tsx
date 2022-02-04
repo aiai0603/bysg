@@ -5,8 +5,11 @@ import React, { Component } from 'react';
 import { Layout } from 'antd';
 import { withRouter, RouteComponentProps } from 'react-router-dom';
 import routes from '../routes/config';
+import routes2 from '../routes/config2'
 import SiderMenu from './SiderMenu';
 import { connectAlita } from 'redux-alita';
+import umbrella from 'umbrella-storage';
+
 
 const { Sider } = Layout;
 
@@ -21,17 +24,32 @@ type SiderCustomState = {
     firstHide: boolean | undefined;
     selectedKey: string;
     mode: string;
+    myMune:any
 };
 
 class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
     constructor(props: any) {
         super(props);
         this.state = {
+            myMune: [],
             mode: 'inline',
             openKeys: [],
             selectedKey: '',
             firstHide: false, // 点击收缩菜单，第一次隐藏展开子菜单，openMenu时恢复
         };
+    }
+
+    componentDidMount(){
+        if(umbrella.getLocalStorage('user').role === 1){
+            this.setState({
+                myMune : routes.menus
+            })
+              
+        }else{
+            this.setState({
+                myMune : routes2.menus
+            })
+        }
     }
 
     componentDidUpdate(prevProps: SiderCustomProps) {
@@ -94,8 +112,9 @@ class SiderCustom extends Component<SiderCustomProps, SiderCustomState> {
                 className="sider-custom"
             >
                 <div className="logo" />
+                
                 <SiderMenu
-                    menus={[...routes.menus]}
+                    menus={[...(this.state.myMune)]}
                     onClick={this.menuClick}
                     mode="inline"
                     selectedKeys={[selectedKey]}

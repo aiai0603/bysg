@@ -1,6 +1,8 @@
 package com.example.bysg.Service.Impl;
 
-import com.example.bysg.DAO.AdminDAO;
+import com.example.bysg.DAO.*;
+import com.example.bysg.DTO.HistoryDTO;
+import com.example.bysg.DTO.initDTO;
 import com.example.bysg.Entity.AdminEntity;
 import com.example.bysg.Service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +17,28 @@ public class AdminServiceImpl implements AdminService {
 
     @Autowired
     AdminDAO adminDAO;
+
+    @Autowired
+    ConferenceDAO conferenceDAO;
+
+    @Autowired
+    EquipmentDAO equipmentDAO;
+
+    @Autowired
+    HistoryDAO historyDAO;
+
+    @Autowired
+    UserDAO userDAO;
+
+
+    @Override
+    public initDTO init(int id) {
+        if(id == 0)
+            return new initDTO(conferenceDAO.countAllByDeleteFlagIs(0),equipmentDAO.countAllByDeleteFlagIs(0),userDAO.countAllByDeleteFlagIs(0),historyDAO.countAllByDeleteFlagIs(0));
+        else
+            return new initDTO(conferenceDAO.countAllByDeleteFlagIsAndAdminIdIs(0,id),
+                    equipmentDAO.countById(id),userDAO.countAllByDeleteFlagIs(0),historyDAO.countById(id));
+    }
 
     @Override
     public AdminEntity findById(int id) {

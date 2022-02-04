@@ -24,9 +24,10 @@ public class ConferenceController {
 
 
     @RequestMapping(value="/findall",method = RequestMethod.GET)
-    Response findAll(){
+    Response findAll(@RequestParam int id){
 
-        List<ConferenceEntity> conferenceEntity= conferenceService.findall();
+
+        List<ConferenceEntity> conferenceEntity= conferenceService.findall(id);
         return new ResponseData("200","查找成功", conferenceEntity);
     }
 

@@ -38,11 +38,18 @@ public class EquipmentServiceImpl implements EquipemntService {
     }
 
     @Override
-    public List<EquipmentDTO> findall(int flag) {
+    public List<EquipmentDTO> findall(int flag,int id) {
         if(flag == 0)
-            return equipmentDAO.findAll(0);
-        else
-            return equipmentDAO.findAll2(0);
+        {
+
+                return equipmentDAO.findAll(0);
+        }
+        else{
+            if(id == 0)
+                return equipmentDAO.findAll2(0);
+            else
+                return equipmentDAO.findAll2admin(0,id);
+        }
     }
 
     @Override

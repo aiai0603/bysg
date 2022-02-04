@@ -18,7 +18,11 @@ public class HistoryServiceImpl implements HistoryService {
     HistoryDAO historyDAO;
 
     @Override
-    public List<HistoryDTO> findall() {
-        return historyDAO.findAllByDeleteFlag(0);
+    public List<HistoryDTO> findall(int id) {
+        if(id == 0){
+            return historyDAO.findAllByDeleteFlag(0);
+        }else{
+            return historyDAO.findAllByDeleteFlag2(0,id);
+        }
     }
 }

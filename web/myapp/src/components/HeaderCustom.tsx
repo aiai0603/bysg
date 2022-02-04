@@ -51,9 +51,7 @@ class HeaderCustom extends Component<HeaderCustomProps, HeaderCustomState> {
       
     }
     screenFull = () => {
-        if (screenfull.isEnabled) {
-            screenfull.request();
-        }
+      
     };
     menuClick = (e: { key: string }) => {
         e.key === 'logout' && this.logout();

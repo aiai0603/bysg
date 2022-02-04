@@ -21,9 +21,9 @@ public class HistoryController {
 
 
     @RequestMapping(value="/findall",method = RequestMethod.GET)
-    Response findAll(){
+    Response findAll(@RequestParam int id){
 
-        List<HistoryDTO> historyEntity= historyService.findall();
+        List<HistoryDTO> historyEntity= historyService.findall(id);
         return new ResponseData("200","查找成功", historyEntity);
     }
 

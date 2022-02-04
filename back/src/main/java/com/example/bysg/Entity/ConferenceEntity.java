@@ -14,6 +14,7 @@ public class ConferenceEntity {
     private int deleteFlag;
     private Timestamp createTime;
     private int state;
+    private int adminId;
 
     @Id
     @Column(name = "id")
@@ -102,5 +103,15 @@ public class ConferenceEntity {
     @Override
     public int hashCode() {
         return Objects.hash(id, conferenceName, conferencePwd, num, deleteFlag, createTime, state);
+    }
+
+    @Basic
+    @Column(name = "admin_id")
+    public int getAdminId() {
+        return adminId;
+    }
+
+    public void setAdminId(int adminId) {
+        this.adminId = adminId;
     }
 }

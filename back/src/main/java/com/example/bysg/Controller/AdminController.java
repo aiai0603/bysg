@@ -1,5 +1,6 @@
 package com.example.bysg.Controller;
 
+import com.example.bysg.DTO.initDTO;
 import com.example.bysg.Entity.AdminEntity;
 import com.example.bysg.Service.AdminService;
 import com.example.bysg.result.Response;
@@ -21,6 +22,14 @@ import java.util.Map;
 public class AdminController {
     @Autowired
     AdminService adminService;
+
+    @RequestMapping(value="/init",method = RequestMethod.GET)
+    Response init(@RequestParam int id){
+
+        initDTO initDTO= adminService.init(id);
+        return new ResponseData("200","查找成功", initDTO);
+    }
+
 
     @RequestMapping(value="/login",method = RequestMethod.POST)
     Response adminController(@RequestBody Map<String, Object> map){

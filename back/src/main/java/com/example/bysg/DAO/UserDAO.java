@@ -13,6 +13,7 @@ import java.util.List;
 public interface UserDAO extends JpaRepository<UserEntity,Integer> {
 
 
+    Integer countAllByDeleteFlagIs(int flag);
 
     UserEntity findByIdAndDeleteFlag(int id,int deleteFlag);
 

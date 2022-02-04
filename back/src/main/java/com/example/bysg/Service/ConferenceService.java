@@ -11,7 +11,7 @@ public interface ConferenceService {
 
     ConferenceEntity save(ConferenceEntity conferenceEntity);
 
-    List<ConferenceEntity> findall();
+    List<ConferenceEntity> findall(int id);
 
     void delete(int id);
 
