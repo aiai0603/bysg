@@ -6,27 +6,27 @@ import ReactEcharts from 'echarts-for-react';
 
 let xAxisData = [];
 let data = [];
-for (let i = 0; i < 50; i++) {
+for (let i = 30; i>=0; i--) {
     xAxisData.push(i);
     data.push(Math.ceil((Math.cos(i / 5) * (i / 5) + i / 6) * 5) + 10);
 }
 
 const option = {
     title: {
-        text: '最近50天每天项目完成情况',
+        text: '最近30天开会情况',
         left: 'center',
         textStyle: {
-            color: '#ccc',
-            fontSize: 10
+            color: '#777',
+            fontSize: 40
         }
     },
-    backgroundColor: '#08263a',
+    backgroundColor: 'white',
     xAxis: [{
         show: true,
         data: xAxisData,
         axisLabel: {
             textStyle: {
-                color: '#ccc'
+                color: '#000'
             }
         }
     }, {
@@ -37,7 +37,7 @@ const option = {
     visualMap: {
         show: false,
         min: 0,
-        max: 50,
+        max: 30,
         dimension: 0,
         inRange: {
             color: ['#4a657a', '#308e92', '#b1cfa5', '#f5d69f', '#f5898b', '#ef5055']
@@ -49,7 +49,7 @@ const option = {
         },
         axisLabel: {
             textStyle: {
-                color: '#ccc'
+                color: '#000'
             }
         },
         splitLine: {
@@ -108,7 +108,7 @@ const option = {
 const EchartsProjects = () => (
     <ReactEcharts
         option={option}
-        style={{height: '212px', width: '100%'}}
+        style={{height: '450px', width: '100%'}}
         className={'react_for_echarts'}
     />
 );

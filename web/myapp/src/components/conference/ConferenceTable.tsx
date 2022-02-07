@@ -8,6 +8,7 @@ import { get } from '../../service/tools';
 import ModalForm from './ModalForm';
 import UpdateForm from './UpdateForm';
 import umbrella from 'umbrella-storage';
+import { Link } from 'react-router-dom';
 
 class ConferenceTable extends React.Component {
     state = {
@@ -213,6 +214,7 @@ class ConferenceTable extends React.Component {
                             style={{ marginRight: 16 }}
                             finished={() => this.start()}
                         />
+                        <Link to='/equipment/find'>设备</Link>
                     </div>
                 ),
             },

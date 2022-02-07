@@ -57,6 +57,7 @@ const menus: {
             component: 'HistoryTable' 
             
         },
+       
         /*
         {
             key: '/subs4',
@@ -119,7 +120,14 @@ const menus: {
             ],
         }, */
     ],
-    others: [], // 非菜单相关路由
+    others: [
+            {
+                key: '/equipment/find',
+                title: '会议室设备',
+                component: 'equipmentId',
+            },
+        
+    ], // 非菜单相关路由
 };
 
 export default menus;

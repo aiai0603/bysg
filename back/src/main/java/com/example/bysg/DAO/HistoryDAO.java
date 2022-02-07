@@ -15,6 +15,10 @@ public interface HistoryDAO extends JpaRepository<HistoryEntity,Integer> {
 
     Integer countAllByDeleteFlagIs(int flag);
 
+    @Query(value = "select count(*) from history a" +
+            "where a.createTime,between current_date()-7 and current_date()",nativeQuery = true)
+    Integer countByDate();
+
     @Query(value = "select count(*) from history as a , conference as b where a.room_id = b.id and b.admin_id = ? and a.delete_flag = 0",nativeQuery = true)
     Integer countById(int id);
 

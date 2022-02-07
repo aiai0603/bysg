@@ -45,7 +45,13 @@ const menus2: {
         },
        
     ],
-    others: [], // 非菜单相关路由
+    others: [
+        {
+            key: '/equipment/find',
+            title: '会议室设备',
+            component: 'equipmentId',
+        },
+    ], // 非菜单相关路由
 };
 
 export default menus2;
