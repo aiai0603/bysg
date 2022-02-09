@@ -6,8 +6,8 @@ import { Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom';
 
 type BreadcrumbCustomProps = {
-    first?: string;
-    second?: string;
+    first?: any;
+    second?: any;
 };
 class BreadcrumbCustom extends React.Component<BreadcrumbCustomProps> {
     render() {

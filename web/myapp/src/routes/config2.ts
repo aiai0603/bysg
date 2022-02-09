@@ -26,31 +26,26 @@ const menus2: {
             key: '/app/conference',
             title: '会议室管理',
             icon: 'bank',
-            component: 'ConferenceTable' 
-            
+            component: 'ConferenceTable'  
         },
         {
             key: '/app/equipment',
             title: '设备管理',
             icon: 'cluster',
-            component: 'equipmentTable' 
-            
+            component: 'equipmentTable'   
         },
         {
             key: '/app/history',
             title: '历史记录',
             icon: 'file-search',
-            component: 'HistoryTable' 
-            
-        },
-       
+            component: 'HistoryTable'    
+        }
     ],
     others: [
-        {
-            key: '/equipment/find',
-            title: '会议室设备',
-            component: 'equipmentId',
-        },
+        { key: '/app/pages/changePass', title: '修改密码', component: 'changePass' },
+        { key: '/app/equipment/:id', title: '设备', component: 'equipmentIdTable' },
+        { key: '/app/history/:id', title: '历史记录', component: 'HistoryIdTable' },
+        
     ], // 非菜单相关路由
 };
 

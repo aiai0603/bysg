@@ -25,4 +25,9 @@ public class HistoryServiceImpl implements HistoryService {
             return historyDAO.findAllByDeleteFlag2(0,id);
         }
     }
+
+    @Override
+    public List<HistoryEntity> findbyid(int id) {
+        return historyDAO.findAllByRoomIdIsAndDeleteFlagIs(id,0);
+    }
 }

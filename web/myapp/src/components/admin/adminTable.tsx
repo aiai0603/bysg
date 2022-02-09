@@ -108,7 +108,7 @@ class AdminTable extends React.Component {
                     }
                     return {
                         ...record,
-                        name: (
+                        adminId: (
                             <span>
                                 {record.adminId
                                     .split(reg)

@@ -154,7 +154,7 @@ class equipmentTable extends React.Component {
                     }
                     return {
                         ...record,
-                        name: (
+                        equipmentId: (
                             <span>
                                 {record.equipmentId
                                     .split(reg)
@@ -186,7 +186,7 @@ class equipmentTable extends React.Component {
                     }
                     return {
                         ...record,
-                        name: (
+                        equipmentId: (
                             <span>
                                 {record.equipmentId
                                     .split(reg)

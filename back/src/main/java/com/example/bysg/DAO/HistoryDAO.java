@@ -1,6 +1,7 @@
 package com.example.bysg.DAO;
 
 import com.example.bysg.DTO.HistoryDTO;
+import com.example.bysg.DTO.chartDTO;
 import com.example.bysg.Entity.HistoryEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -15,6 +16,8 @@ public interface HistoryDAO extends JpaRepository<HistoryEntity,Integer> {
 
     Integer countAllByDeleteFlagIs(int flag);
 
+    List<HistoryEntity> findAllByRoomIdIsAndDeleteFlagIs(int id,int flag);
+
     @Query(value = "select count(*) from history a" +
             "where a.createTime,between current_date()-7 and current_date()",nativeQuery = true)
     Integer countByDate();
@@ -27,6 +30,9 @@ public interface HistoryDAO extends JpaRepository<HistoryEntity,Integer> {
 
     @Query(value = "select new com.example.bysg.DTO.HistoryDTO(a.id,a.createTime,a.finishTime,a.deleteFlag,a.name,b.conferenceName) from HistoryEntity  as a,ConferenceEntity as b where a.roomId = b.id and a.deleteFlag = :flag")
     List<HistoryDTO> findAllByDeleteFlag(@Param("flag")int flag);
+
+    @Query(value = "select date(create_time) as date,count(id) as count from history  where DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= date(create_time) group by create_time",nativeQuery = true)
+    List<chartDTO> findchart();
 
 
 }

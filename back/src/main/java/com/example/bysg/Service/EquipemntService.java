@@ -16,6 +16,8 @@ public interface EquipemntService {
 
     List<EquipmentDTO> findall(int flag,int id);
 
+    List<EquipmentEntity> findallByid(int id);
+
     void delete(int id);
 
 

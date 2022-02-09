@@ -53,6 +53,11 @@ public class EquipmentServiceImpl implements EquipemntService {
     }
 
     @Override
+    public List<EquipmentEntity> findallByid(int id) {
+        return equipmentDAO.findAllByConferenceRoomIsAndAndDeleteFlagIs(id,0);
+    }
+
+    @Override
     public void delete(int id) {
         equipmentDAO.deleteById(id);
     }

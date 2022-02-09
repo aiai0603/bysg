@@ -1,8 +1,8 @@
 package com.example.bysg.Service.Impl;
 
 import com.example.bysg.DAO.*;
-import com.example.bysg.DTO.HistoryDTO;
 import com.example.bysg.DTO.initDTO;
+import com.example.bysg.DTO.initallDTO;
 import com.example.bysg.Entity.AdminEntity;
 import com.example.bysg.Service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,12 +32,12 @@ public class AdminServiceImpl implements AdminService {
 
 
     @Override
-    public initDTO init(int id) {
+    public initallDTO init(int id) {
         if(id == 0)
-            return new initDTO(conferenceDAO.countAllByDeleteFlagIs(0),equipmentDAO.countAllByDeleteFlagIs(0),userDAO.countAllByDeleteFlagIs(0),historyDAO.countAllByDeleteFlagIs(0));
+            return new initallDTO(conferenceDAO.countAllByDeleteFlagIs(0),equipmentDAO.countAllByDeleteFlagIs(0),userDAO.countAllByDeleteFlagIs(0),historyDAO.countAllByDeleteFlagIs(0),historyDAO.findchart());
         else
-            return new initDTO(conferenceDAO.countAllByDeleteFlagIsAndAdminIdIs(0,id),
-                    equipmentDAO.countById(id),userDAO.countAllByDeleteFlagIs(0),historyDAO.countById(id));
+            return new initallDTO(conferenceDAO.countAllByDeleteFlagIsAndAdminIdIs(0,id),
+                    equipmentDAO.countById(id),userDAO.countAllByDeleteFlagIs(0),historyDAO.countById(id),historyDAO.findchart());
     }
 
     @Override

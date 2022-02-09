@@ -15,8 +15,33 @@ class Dashboard extends React.Component {
             equipment: 0,
             user: 0,
             history: 0,
+            charts:[]
         },
     };
+    // eslint-disable-next-line react/sort-comp
+    get_30_day = () => {
+        var thrityMonth = [];
+        var thrityData = [];
+        for (var i = 29; i > 0; i--) {
+          let thisDay = new Date(new Date().setDate(new Date().getDate() - i)).toLocaleDateString()
+          let j;
+          for( j = 0 ;j<this.state.data.charts.length;j++){
+              if(this.state.data.charts[j].date === thisDay){
+                thrityData.push( this.state.data.charts[j].count )
+                break;
+              }
+          }
+          if(j === this.state.data.charts.length){
+            thrityData.push(0);
+          }
+
+          
+          thrityMonth.push(thisDay)
+          
+        } 
+        
+    }
+
     componentDidMount() {
         this.start();
     }
@@ -43,6 +68,8 @@ class Dashboard extends React.Component {
                     data: res.data,
                 });
             }
+
+           
         });
     };
     render() {
@@ -115,7 +142,7 @@ class Dashboard extends React.Component {
                     <Col className="gutter-row" md={24}>
                         <div className="gutter-box">
                             <Card bordered={false} style={{backgroundColor: 'white',}}>
-                                <EchartsProjects />
+                                <EchartsProjects data = {this.state.data.charts}/>
                             </Card>
                         </div>
                     </Col>

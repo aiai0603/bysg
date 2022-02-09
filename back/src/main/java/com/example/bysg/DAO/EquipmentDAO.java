@@ -42,6 +42,8 @@ public interface EquipmentDAO extends JpaRepository<EquipmentEntity,Integer> {
             "EquipmentEntity  as a,ConferenceEntity as b where a.conferenceRoom = b.id and a.conferenceRoom <> 0 and a.deleteFlag = :flag and b.adminId = :id")
     List<EquipmentDTO> findAll2admin( @Param("flag") int flag,@Param("id") int id);
 
+    List<EquipmentEntity> findAllByConferenceRoomIsAndAndDeleteFlagIs(int id,int flag);
+
     @Modifying
     @Query(value = "update equipment set delete_flag = 1  where id = ?",nativeQuery = true)
     void deleteById(int id);

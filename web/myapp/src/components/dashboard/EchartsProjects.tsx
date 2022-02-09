@@ -105,12 +105,17 @@ const option = {
         return idx * 20;
     }
 };
-const EchartsProjects = () => (
-    <ReactEcharts
-        option={option}
-        style={{height: '450px', width: '100%'}}
-        className={'react_for_echarts'}
-    />
-);
+class EchartsProjects extends React.Component<any,any> {
 
+    render(): React.ReactNode {
+        return ( <ReactEcharts
+            option={option}
+            style={{height: '450px', width: '100%'}}
+            className={'react_for_echarts'}
+        />)
+        
+    }
+   
+
+}
 export default EchartsProjects;

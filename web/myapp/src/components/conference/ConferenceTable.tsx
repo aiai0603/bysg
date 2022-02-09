@@ -109,7 +109,7 @@ class ConferenceTable extends React.Component {
                     }
                     return {
                         ...record,
-                        name: (
+                        conferenceName: (
                             <span>
                                 {record.conferenceName
                                     .split(reg)
@@ -214,7 +214,8 @@ class ConferenceTable extends React.Component {
                             style={{ marginRight: 16 }}
                             finished={() => this.start()}
                         />
-                        <Link to='/equipment/find'>设备</Link>
+                        <Link style={{ marginLeft: 16 }} to={'/app/equipment/'+record.id}>设备</Link>
+                        <Link style={{ marginLeft: 16 }} to={'/app/history/'+record.id}>历史</Link>
                     </div>
                 ),
             },

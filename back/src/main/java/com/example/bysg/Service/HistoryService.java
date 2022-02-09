@@ -10,5 +10,8 @@ public interface HistoryService {
 
     List<HistoryDTO> findall(int id);
 
+    List<HistoryEntity> findbyid(int id);
+
+
 
 }

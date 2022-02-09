@@ -84,7 +84,7 @@ class UserTable extends React.Component {
                     }
                     return {
                         ...record,
-                        name: (
+                        nickName: (
                             <span>
                                 {record.nickName
                                     .split(reg)

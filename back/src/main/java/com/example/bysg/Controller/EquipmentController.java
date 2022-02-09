@@ -64,6 +64,14 @@ public class EquipmentController {
         return new ResponseData("200","查找成功", equipmentEntity);
     }
 
+    @RequestMapping(value="/findbyid",method = RequestMethod.GET)
+    Response findAllById(@RequestParam int id){
+        List<EquipmentEntity> equipmentEntity= equipemntService.findallByid(id);
+        return new ResponseData("200","查找成功", equipmentEntity);
+    }
+
+
+
 
     @RequestMapping(value="/delete",method = RequestMethod.GET)
     Response delete(@RequestParam int id){

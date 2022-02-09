@@ -79,15 +79,15 @@ class HistoryTable extends React.Component {
             filtered: !!searchText,
             data: this.state.firstdata
                 .map((record: any) => {
-                    const match = record.name.match(reg);
+                    const match = record.conferenceName.match(reg);
                     if (!match) {
                         return null;
                     }
                     return {
                         ...record,
-                        name: (
+                        conferenceName: (
                             <span>
-                                {record.name
+                                {record.conferenceName
                                     .split(reg)
                                     .map((text: any, i: number) =>
                                         i > 0

@@ -27,8 +27,12 @@ public class HistoryController {
         return new ResponseData("200","查找成功", historyEntity);
     }
 
+    @RequestMapping(value="/findbyid",method = RequestMethod.GET)
+    Response findbyid(@RequestParam int id){
 
-
+        List<HistoryEntity> historyEntity= historyService.findbyid(id);
+        return new ResponseData("200","查找成功", historyEntity);
+    }
 
 
 

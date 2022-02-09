@@ -38,6 +38,7 @@ import UserTable from './user/UserTable';
 import HistoryTable from './history/HistoryTable';
 import equipmentTable from './equipment/equipmentTable';
 import equipmentIdTable from './equipmentById/equipmentTable';
+import HistoryIdTable from './historyId/HistoryTable'
 
 const WysiwygBundle = Loadable({
     // 按需加载富文本配置
@@ -46,6 +47,7 @@ const WysiwygBundle = Loadable({
 });
 
 export default {
+    HistoryIdTable,
     equipmentIdTable,
     equipmentTable,
     HistoryTable,
