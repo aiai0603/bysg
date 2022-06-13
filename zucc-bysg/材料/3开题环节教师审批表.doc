@@ -1,0 +1,322 @@
+
+
+<html xmlns:v='urn:schemas-microsoft-com:vml' xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns:m='http://schemas.microsoft.com/office/2004/12/omml' xmlns='http://www.w3.org/TR/REC-html40' xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <xml><w:WordDocument><w:View>Print</w:View><w:TrackMoves>false</w:TrackMoves><w:TrackFormatting/><w:ValidateAgainstSchemas/><w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><w:IgnoreMixedContent>false</w:IgnoreMixedContent><w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><w:DoNotPromoteQF/><w:LidThemeOther>EN-US</w:LidThemeOther><w:LidThemeAsian>ZH-CN</w:LidThemeAsian><w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript><w:Compatibility><w:BreakWrappedTables/><w:SnapToGridInCell/><w:WrapTextWithPunct/><w:UseAsianBreakRules/><w:DontGrowAutofit/><w:SplitPgBreakAndParaMark/><w:DontVertAlignCellWithSp/><w:DontBreakConstrainedForcedTables/><w:DontVertAlignInTxbx/><w:Word11KerningPairs/><w:CachedColBalance/><w:UseFELayout/></w:Compatibility><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel><m:mathPr><m:mathFont m:val="Cambria Math"/><m:brkBin m:val="before"/><m:brkBinSub m:val="--"/><m:smallFrac m:val="off"/><m:dispDef/><m:lMargin m:val="0"/> <m:rMargin m:val="0"/><m:defJc m:val="centerGroup"/><m:wrapIndent m:val="1440"/><m:intLim m:val="subSup"/><m:naryLim m:val="undOvr"/></m:mathPr></w:WordDocument></xml>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 14 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face {
+            font-family: 宋体;
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: 黑体;
+            panose-1: 2 1 6 9 6 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: 黑体;
+            panose-1: 2 1 6 9 6 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "\@宋体";
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: 等线;
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "\@等线";
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "\@黑体";
+            panose-1: 2 1 6 9 6 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: ????;
+            panose-1: 0 0 0 0 0 0 0 0 0 0;
+        }
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal {
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-size: 10.5pt;
+            font-family: "Times New Roman","serif";
+        }
+
+        p.MsoHeader, li.MsoHeader, div.MsoHeader {
+            mso-style-link: "页眉 Char";
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            text-align: center;
+            layout-grid-mode: char;
+            border: none;
+            padding: 0cm;
+            font-size: 9.0pt;
+            font-family: "Times New Roman","serif";
+        }
+
+        p.MsoFooter, li.MsoFooter, div.MsoFooter {
+            mso-style-link: "页脚 Char";
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            layout-grid-mode: char;
+            font-size: 9.0pt;
+            font-family: "Times New Roman","serif";
+        }
+
+        p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent {
+            mso-style-link: "正文文本缩进 Char";
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 6.0pt;
+            margin-left: 21.0pt;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-size: 10.5pt;
+            font-family: "Times New Roman","serif";
+        }
+
+        p.msonormal0, li.msonormal0, div.msonormal0 {
+            mso-style-name: msonormal;
+            margin-right: 0cm;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: 宋体;
+        }
+
+        span.Char {
+            mso-style-name: "正文文本缩进 Char";
+            mso-style-link: 正文文本缩进;
+            font-family: "????","serif";
+        }
+
+        span.Char0 {
+            mso-style-name: "页眉 Char";
+            mso-style-link: 页眉;
+            font-family: "????","serif";
+        }
+
+        span.Char1 {
+            mso-style-name: "页脚 Char";
+            mso-style-link: 页脚;
+            font-family: "????","serif";
+        }
+
+        .MsoChpDefault {
+            font-size: 10.0pt;
+        }
+        /* Page Definitions */
+        @page WordSection1 {
+            size: 595.3pt 841.9pt;
+            margin: 72.0pt 90.0pt 72.0pt 90.0pt;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+        -->
+    </style>
+
+</head>
+
+<body lang="ZH-CN" style='text-justify-trim: punctuation'>
+
+    <div class="WordSection1">
+
+        <div>
+
+            <p class="MsoNormal" align="center" style='text-align: center'>
+                <b><span
+                    style='font-size: 15.0pt; font-family: 黑体'>毕业设计（论文）开题环节教师审核表</span></b>
+            </p>
+
+            <div align="center">
+
+                <table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="618"
+                    style='width: 463.6pt; border-collapse: collapse; border: none'>
+                    <tr style='height: 1.0cm'>
+                <td width="108" style='width: 80.85pt; border: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>学生姓名</span>
+                    </p>
+                </td>
+                <td width="81" style='width: 60.8pt; border: solid windowtext 1.0pt; border-left: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>张帅</p>
+                </td>
+                <td width="92" style='width: 69.25pt; border: solid windowtext 1.0pt; border-left: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>学<span lang="EN-US">&nbsp; </span>号</span>
+                    </p>
+                </td>
+                <td width="91" style='width: 68.55pt; border: solid windowtext 1.0pt; border-left: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>31801150</p>
+                </td>
+                <td width="91" style='width: 68.6pt; border: solid windowtext 1.0pt; border-left: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>专业班级</span>
+                    </p>
+                </td>
+                <td width="148" style='width: 111.0pt; border: solid windowtext 1.0pt; border-left: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>计算机科学与技术-计算机1803</p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="189" colspan="2" style='width: 141.65pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>毕业设计（论文）题目</span>
+                    </p>
+                </td>
+                <td width="423" colspan="4" style='width: 317.4pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal">基于E-ink的智慧桌签系统设计与实现</p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="108" style='width: 80.85pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>指导教师</span>
+                    </p>
+                </td>
+                <td width="81" style='width: 60.8pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>蔡建平</p>
+                </td>
+                <td width="92" style='width: 69.25pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>职<span lang="EN-US">&nbsp; </span>称</span>
+                    </p>
+                </td>
+                <td width="91" style='width: 68.55pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>副教授</p>
+                </td>
+                <td width="91" style='width: 68.6pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 黑体'>所在单位</span>
+                    </p>
+                </td>
+                <td width="148" style='width: 111.0pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>计算机与计算科学学院</p>
+                </td>
+            </tr>
+                    <tr style='height: 534.25pt'>
+                        <td width="58" style='width: 43.3pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 534.25pt'>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <a name="one"></a><span
+                                    style='font-family: 宋体; '>开题</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>报告</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '><span lang="EN-US">(</span>含外</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>文</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>翻译</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>、文献</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>综述</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span lang="EN-US"
+                                    style='font-family: 宋体; '>)</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>批阅</span>
+                            </p>
+                            <p class="MsoNormal" align="center" style='text-align: center'>
+                                <span
+                                    style='font-family: 宋体; '>意见</span>
+                            </p>
+                        </td>
+                        <td width="560" colspan="5" style='width: 420.3pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 534.25pt'>
+                            <p class="MsoNormal">
+                                <a name="zyyj"></a><span lang="EN-US" style='font-size: 12.0pt; font-family: 宋体'>开题报告目标明确，任务分配合理，课题研究方案可行；
+文献综述叙述充分，文献引用数量符合要求；
+外文翻译语句通顺，内容与课题较相关。</span>
+                            </p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-size: 12.0pt; font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal"><span lang="EN-US" style='font-family: 宋体'>&nbsp;</span></p>
+                            <p class="MsoNormal" align="center" style='margin-right: 21.0pt; text-align: center'>
+                                <span
+                                    style='font-family: 宋体'>指导教师（签名）：<a name="zdjs"></a><a name="shyear"></a><img src='http://10.61.250.205/bysj/DaYin/dzname/J01062.jpg'  width='80' height='40' runat='server' /></span>
+                            </p>
+                            <p class="MsoNormal" align="right" style='margin-right: 21.0pt; text-align: right; word-break: break-all'>
+                                <span lang="EN-US" style='font-family: 宋体'>2021</span><span
+                                    style='font-family: 宋体'>年<a name="shmonth"></a> <span lang="EN-US">12</span>月<a
+                                        name="shday"></a> <span lang="EN-US">21</span>日</span>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                </table>
+
+            </div>
+
+            <p class="MsoNormal" align="left" style='text-align: left'>
+                <span lang="EN-US"
+                    style='font-size: 12.0pt; font-family: 宋体'>&nbsp;</span>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+

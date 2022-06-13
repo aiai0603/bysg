@@ -1,0 +1,617 @@
+
+
+<!DOCTYPE html>
+
+<<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+    <head>
+     <!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:TrackMoves>false</w:TrackMoves><w:TrackFormatting/><w:ValidateAgainstSchemas/><w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><w:IgnoreMixedContent>false</w:IgnoreMixedContent><w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><w:DoNotPromoteQF/><w:LidThemeOther>EN-US</w:LidThemeOther><w:LidThemeAsian>ZH-CN</w:LidThemeAsian><w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript><w:Compatibility><w:BreakWrappedTables/><w:SnapToGridInCell/><w:WrapTextWithPunct/><w:UseAsianBreakRules/><w:DontGrowAutofit/><w:SplitPgBreakAndParaMark/><w:DontVertAlignCellWithSp/><w:DontBreakConstrainedForcedTables/><w:DontVertAlignInTxbx/><w:Word11KerningPairs/><w:CachedColBalance/><w:UseFELayout/></w:Compatibility><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel><m:mathPr><m:mathFont m:val="Cambria Math"/><m:brkBin m:val="before"/><m:brkBinSub m:val="--"/><m:smallFrac m:val="off"/><m:dispDef/><m:lMargin m:val="0"/> <m:rMargin m:val="0"/><m:defJc m:val="centerGroup"/><m:wrapIndent m:val="1440"/><m:intLim m:val="subSup"/><m:naryLim m:val="undOvr"/></m:mathPr></w:WordDocument></xml><![endif]-->
+
+<meta name="Generator" content="Microsoft Word 14 (filtered)" /><title>
+
+</title>
+    <style type="text/css">
+
+
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:楷体_GB2312;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@楷体_GB2312";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"标题 1 Char";
+	margin-top:17.0pt;
+	margin-right:0cm;
+	margin-bottom:16.5pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:240%;
+	page-break-after:avoid;
+	font-size:22.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	layout-grid-mode:char;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-link:"标题 1";
+	font-family:宋体;
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-link:页眉;
+	font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-link:页脚;
+	font-family:宋体;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+    </style>
+</head>
+<body>
+    <h1 align="center" style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:center;line-height:normal"><a name="_Toc266878348"></a><a name="_Toc188841866"></a><a name="_Toc180459433"></a><a name="_Toc180399019"></a><a name="_Toc180398985"><span style="mso-bookmark:_Toc180399019"><span style="mso-bookmark:_Toc180459433"><span style="mso-bookmark:_Toc188841866"><span style="mso-bookmark:_Toc266878348"><span style="font-size:18.0pt;font-family:
+宋体;mso-hansi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-weight:normal;
+mso-no-proof:yes">毕业设计（论文）总评表</span></span></span></span></span></a><span lang="EN-US" style="font-size:18.0pt;font-family:宋体;mso-hansi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-weight:normal;mso-no-proof:yes"><o:p></o:p></span></h1>
+    <table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="margin-left:5.4pt;border-collapse:collapse;mso-table-layout-alt:fixed;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+ mso-border-insideh:.5pt solid windowtext;mso-border-insidev:.5pt solid windowtext" width="0">
+        <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:30.75pt">
+            <td colspan="12" style="width: 459.0pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; background: #E6E6E6; padding: 0cm 5.4pt 0cm 5.4pt; height: 30.75pt" width="612">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="font-size:12.0pt;font-family:黑体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;">基本情况（由学生填写）</span><span lang="EN-US" style="font-size:12.0pt;mso-fareast-font-family:黑体"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        
+        <tr style="mso-yfti-irow:1;height:40.0pt;">
+            <td style="width:73.5pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;" width="98">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bookmark:_Toc180398981"><span style="mso-bookmark:_Toc180459427"><span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">学生姓名<span lang="EN-US"><o:p></o:p></span></span></span></span></p>
+            </td>
+            <td colspan="3" style="width:67.95pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  " width="91">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bookmark:_Toc180398981"><span style="mso-bookmark:_Toc180459427"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:宋体;mso-bidi-font-weight:
+  bold"><o:p>张帅</o:p></span></span></span></p>
+            </td>
+            <td colspan="3" style="width:69.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+ " width="92">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bookmark:_Toc180398981"><span style="mso-bookmark:_Toc180459427"><span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">学<span lang="EN-US"><span style="mso-spacerun:yes">&nbsp; </span></span>号<span lang="EN-US"><o:p></o:p></span></span></span></span></p>
+            </td>
+            <td colspan="2" style="width:68.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  " width="91">
+                <p align="center" class="MsoNormal" style="text-align:center;vertical-align:middle">
+                    <span style="mso-bookmark:_Toc180398981;vertical-align:middle"><span style="mso-bookmark:_Toc180459427;vertical-align:middle"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;vertical-align:middle;font-family:宋体;mso-bidi-font-weight:
+  bold"><o:p>31801150</o:p></span></span></span></p>
+            </td>
+            <td colspan="2" style="width:68.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  " width="91">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bookmark:_Toc180398981"><span style="mso-bookmark:_Toc180459427"><span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">专业班级<span lang="EN-US"><o:p></o:p></span></span></span></span></p>
+            </td>
+            <td style="width:111.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  " width="148">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bookmark:_Toc180398981"><span style="mso-bookmark:_Toc180459427"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:宋体;mso-bidi-font-weight:
+  bold">计算机科学与技术-计算机1803<o:p></o:p></span></span></span></p>
+            </td>
+
+
+        </tr>
+
+
+
+
+
+
+
+        <tr style="mso-yfti-irow:2;height:22.7pt;mso-height-rule:exactly">
+            <td colspan="4" style="width:141.45pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;mso-height-rule:exactly" width="189">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">毕业设计（论文）题目<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="8" style="width:317.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="423">
+                <p class="MsoNormal">
+                    <span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+  font-family:宋体"><o:p>基于E-ink的智慧桌签系统设计与实现</o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:3;height:1.0cm;mso-height-rule:exactly">
+            <td colspan="12" style="width: 459.0pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: #E6E6E6; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm; mso-height-rule: exactly" width="612">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="font-size:12.0pt;font-family:黑体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;">评分项目构成</span><span lang="EN-US" style="font-size:12.0pt;mso-fareast-font-family:黑体"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:4;height:22.7pt">
+            <td colspan="2" style="width:81.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评分项目<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评阅项目<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评分内容及分值明细<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">合计<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:5;height:22.7pt">
+            <td colspan="2" rowspan="6" style="width:81.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">指导教师评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">选题<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">选题（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" rowspan="6" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US">100</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;">分</span><span lang="EN-US"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:6;height:22.7pt">
+            <td colspan="4" rowspan="3" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">开题<span lang="EN-US"><o:p></o:p></span></span></p>
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">开题报告（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:7;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">文献综述（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:8;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">外文翻译（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:9;height:22.7pt">
+            <td colspan="4" rowspan="2" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">毕业设计（论文）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">专业应用水平（<span lang="EN-US">50</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:10;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">撰写能力（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:11;height:22.7pt">
+            <td colspan="2" rowspan="6" style="width:81.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评阅人评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">选题<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">选题（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" rowspan="6" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US">100</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;">分</span><span lang="EN-US"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:12;height:22.7pt">
+            <td colspan="4" rowspan="3" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">开题<span lang="EN-US"><o:p></o:p></span></span></p>
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">开题报告（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:13;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">文献综述（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:14;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">外文翻译（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:15;height:22.7pt">
+            <td colspan="4" rowspan="2" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">毕业设计（论文）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">专业应用水平（<span lang="EN-US">50</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:16;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">撰写能力（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:17;height:22.7pt">
+            <td colspan="2" rowspan="4" style="width:81.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">答辩评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">选题<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">选题（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" rowspan="4" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US">100</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;">分</span><span lang="EN-US"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:18;height:22.7pt">
+            <td colspan="4" rowspan="2" style="width:117.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">毕业设计（论文）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">专业应用水平（<span lang="EN-US">50</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:19;height:22.7pt">
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">撰写能力（<span lang="EN-US">10</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:20;height:22.7pt">
+            <td colspan="4" style="width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="156">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">答辩<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:144.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt" width="192">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">答辩情况（<span lang="EN-US">30</span>分）<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:21;height:1.0cm">
+            <td colspan="12" style="width: 459.0pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: #E6E6E6; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm" width="612">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="font-size:12.0pt;font-family:黑体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;">总评分</span><span lang="EN-US"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:22;height:22.7pt;mso-height-rule:exactly">
+            <td colspan="3" style="width:108.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;mso-height-rule:exactly" width="144">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评分项目<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="3" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">权数<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="4" style="width:189.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="252">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">总评成绩<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:23;height:22.7pt;mso-height-rule:exactly">
+            <td colspan="3" style="width:108.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;mso-height-rule:exactly" width="144">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">指导教师评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US"><o:p>87</o:p></span></p>
+            </td>
+            <td colspan="3" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="right" class="MsoNormal" style="text-align:right">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;">30％</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+            </td>
+            <td colspan="4" rowspan="3" style="width:189.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="252">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US"><o:p>87</o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:24;height:22.7pt;mso-height-rule:exactly">
+            <td colspan="3" style="width:108.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;mso-height-rule:exactly" width="144">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">评阅人评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US"><o:p>85</o:p></span></p>
+            </td>
+            <td colspan="3" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="right" class="MsoNormal" style="text-align:right">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;">20％</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="mso-yfti-irow:25;mso-yfti-lastrow:yes;height:22.7pt;mso-height-rule:
+  exactly">
+            <td colspan="3" style="width:108.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;mso-height-rule:exactly" width="144">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:黑体;mso-bidi-font-weight:bold">答辩评分<span lang="EN-US"><o:p></o:p></span></span></p>
+            </td>
+            <td colspan="2" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="center" class="MsoNormal" style="text-align:center">
+                    <span lang="EN-US"><o:p>88<span id="lbErBian"></span></o:p></span></p>
+            </td>
+            <td colspan="3" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt;
+  mso-height-rule:exactly" width="108">
+                <p align="right" class="MsoNormal" style="text-align:right">
+                    <span style="mso-bidi-font-size:10.5pt;font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;">50％</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt"><o:p></o:p></span></p>
+            </td>
+        </tr> 
+    </table> 
+    <p class="MsoNormal">
+        <span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+mso-hansi-font-family:&quot;Times New Roman&quot;">毕业设计工作指导小组负责人签名：</span><span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;<img src='http://10.61.250.205/bysj/DaYin/dzname/J01013.jpg'  width='80' height='40' runat='server' />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022&nbsp;</span></span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+&quot;Times New Roman&quot;">年</span><span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;&nbsp;5&nbsp; </span></span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;
+mso-hansi-font-family:&quot;Times New Roman&quot;">月</span><span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;&nbsp;11&nbsp; </span></span><span style="font-family:宋体;
+mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&quot;Times New Roman&quot;">日</span> <span lang="EN-US"><o:p></o:p></span>
+    </p>
+</body>
+</html>
