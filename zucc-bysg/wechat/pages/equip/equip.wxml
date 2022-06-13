@@ -1,0 +1,76 @@
+<!--pages/equip/equip.wxml-->
+<!--pages/room/room.wxml-->
+<view>
+    <view class="top">
+       
+        <view class="ctitle">
+            <view class="title-name">
+                当前会议：{{now.name?now.name:'暂无'}}
+            </view>
+            <view class="title-num">
+                可用资源 {{now.num}}/{{now.sum}}
+            </view>
+         
+            <view>
+                <view class="bt1" style="padding:16rpx 32rpx" wx:if="{{!now.flag}}" bindtap="start">
+                    开始会议
+                </view>
+                <view class="bt3" style="padding:16rpx 32rpx" wx:else  bindtap="finish" data-id="{{now.id}}">
+                    结束会议
+                </view>
+                <view class="bt2" style="padding:16rpx 32rpx" wx:if="{{now.flag}}" data-id="{{id}}"  bindtap="piliang">
+                    批量刷新
+                </view>
+            </view>
+          
+        </view>
+
+    </view>
+    <view style="height:400rpx"></view>
+    <view class="list" wx:for="{{equip}}">
+        <view class="card">
+          
+            <view class="right">
+                <view class="name">
+                    {{item.equipmentId}}
+                </view>
+                <view class="state">
+                   
+                   
+                    <view class="tips" style="background-color:{{item.state==0?'green':'red'}}"> </view>
+                    <view style="color:{{item.state==0?'green':'red'}}">  {{item.ip?item.ip:'暂无'}}</view>
+
+                </view>
+                <view class="button">
+                    <view class="bt1" bindtap="goto" data-id="{{item.id}}" data-ip="{{item.ip}}">
+                        修改
+                    </view>
+                    <view class="bt2" bindtap="test" data-id="{{item.ip}}"  data-eid="{{item.id}}">
+                        测试
+                    </view>
+                </view>
+            </view>
+
+            <view class="icon">
+                <image  src="{{item.picture !== '暂无数据'?item.picture:'../../images/null.jpg'}}" alt="" srcset="" mode="widthFix" />
+            </view>
+
+
+        </view>
+    </view>
+    <view class="more">
+        暂无更无
+
+    </view>
+
+</view>
+
+<modal hidden="{{hiddenmodalput}}" title="开始会议" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm"> 
+    <view class="label">
+        <view>
+            会议名称
+        </view><input type='text'placeholder="请输入内容" bindinput="bindname" value="{{cname}}"/>
+    </view>
+    
+
+</modal>

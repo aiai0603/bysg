@@ -1,0 +1,52 @@
+/* pages/login/login.wxss */
+page{
+    background-image: url(http://47.97.158.11:8087/pictures/bg.png);
+    height: 100%;
+    width: 100%;
+    background-size: 100% ;
+}
+.bg{
+    height: 100%;
+}
+
+.word{
+    font-size:70rpx;
+    color:white;
+    font-weight: 600;
+    letter-spacing: 4rpx;
+}
+
+.userinfo{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85%;
+    height: 45%;
+    padding-bottom: 10%;
+    
+}
+
+.button {
+	box-shadow: 0px 0px 0px 2px #7394f0;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

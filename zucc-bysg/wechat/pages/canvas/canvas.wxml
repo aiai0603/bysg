@@ -1,0 +1,53 @@
+<cover-view class="show {{!sha?'load':'loada'}}">
+    <cover-image src="../../utils/1.gif" style="height:420rpx" >
+</cover-image>
+    <cover-view>{{tips}}</cover-view>
+</cover-view>
+<view wx:if="{{ show }}" class="canvas-box">
+
+    <canvas style="width: {{ windowW }}px; height: {{ windowW/800*480}}px;" canvas-id="firstCanvas"></canvas>
+
+    <canvas style="width: 800px; height: 480px;" canvas-id="firstCanvas2" wx:if="{{ sha }}"></canvas>
+
+
+</view>
+<view wx:else class="instead">
+    请先选择图片
+</view>
+
+
+<view class="list-box">
+
+    <view class="btn">
+        <view>请选择背景图片</view>
+        <view class="my-btn" bindtap="chooseImageTap" style=" font-size: 32rpx;">选择图片</view>
+    </view>
+
+    <view class="btn">
+        <view>请输入显示的文字</view>
+        <input type="text" bindinput="nameInput" placeholder="请输入文字" maxlength="10"
+        bindblur="drawCanvas"></input>
+    </view>
+    <view class="btn">
+        <view>输入文字的字号</view>
+        <input type="number" bindinput="numInput" placeholder="请输入字号" maxlength="2"
+        bindblur="drawCanvas" value="{{num}}"></input>
+    </view>
+    <view class="btn">
+        <view>输选择文字的颜色</view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+            <view class="picker">
+                当前选择：{{array[index]}}
+            </view>
+        </picker>
+    </view>
+    <view class="btn2">
+        <view class="my-btn3  {{show?'':'other'}}" bindtap="eventSave">保存到手机</view>
+        <view bindtap="btnsave" class="my-btn2 ">点击上传</view>
+    </view>
+
+
+
+
+
+</view>

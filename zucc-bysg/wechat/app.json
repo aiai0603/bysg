@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/room/room",
+    "pages/canvas/canvas",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/equip/equip",
+    "pages/mine/mine",
+    "pages/show/show"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电子桌签",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color":"#666666",
+    "selectedColor":"#22a3f0",
+    "list": [{
+     "pagePath": "pages/room/room",
+     "text": "会议",
+     "iconPath": "./images/room.png",
+     "selectedIconPath": "./images/room2.png"
+    },{
+     "pagePath": "pages/mine/mine",
+     "text": "我的",
+     "iconPath": "./images/mine.png",
+     "selectedIconPath": "images/mine2.png"
+    }]
+   }
+}

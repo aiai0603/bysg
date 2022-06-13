@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="bg">
+  
+  <view class="userinfo">
+    <view class="word">
+    电子桌签管理系统
+  </view>
+    <view bindtap="getUserProfile"  class="button">一键登录</view>
+
+    
+  </view>
+ 
+</view>

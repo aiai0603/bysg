@@ -1,0 +1,19 @@
+<view class="card">
+
+    <view class="img">
+        <image src="{{user.avater}}" alt="" srcset="" mode="widthFix"></image>
+    </view>
+    <view class="name">
+        <view>
+            {{user.nickName}}
+        </view>
+       
+        
+    </view>
+    <view class="icon">
+        
+    </view>
+
+</view>
+
+<view class="item" bindtap="back">退出登录</view>

@@ -1,0 +1,55 @@
+<!--pages/room/room.wxml-->
+<view>
+    <view class="top">
+        <view class="title">
+            我的会议室
+        </view>
+        <view class="add" bindtap="modalinput">
+            + 新增
+        </view>
+    </view>
+    <view style="height:100rpx"></view>
+    <view class="list" wx:for="{{room}}">
+        <view class="card">
+            <view class="icon">
+                <image src="../../images/hys.png" alt="" srcset="" mode="widthFix" />
+            </view>
+            <view class="right">
+                <view class="name">
+                    {{item.conferenceName}}
+                </view>
+                <view class="state" >
+                    <view class="tips" style="background-color:{{item.state==0?'green':'red'}}"> </view>
+                    <view style="color:{{item.state==0?'green':'red'}}"> {{item.state==0?'空闲':'使用'}}</view>
+                    
+                </view>
+                <view class="button">
+                    <view class="bt1" bindtap="goto"  data-id="{{item.id}}" data-state="{{item.state}}">
+                        进入
+                    </view>
+                    <view class="bt2" bindtap="delete"  data-id="{{item.id}}">
+                        移除
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>  
+    <view class="more">
+        暂无更无
+    
+    </view>
+    
+</view>
+<modal hidden="{{hiddenmodalput}}" title="新增会议室" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm"> 
+    <view class="label">
+        <view>
+            会议室名称
+        </view><input type='text'placeholder="请输入内容" bindinput="bindname" value="{{name}}"/>
+    </view>
+    <view class="label">
+        <view>
+            会议室密码
+        </view><input type='text'placeholder="请输入内容" bindinput="bindpass" value="{{pass}}"/>
+    </view>
+
+</modal>

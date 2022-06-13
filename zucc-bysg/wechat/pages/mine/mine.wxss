@@ -1,0 +1,59 @@
+/* pages/mine/mine.wxss */
+page{
+    height: 100%;
+    width:100%;
+    background-color: #eee;
+}
+.card{
+    height: 300rpx;
+    width:100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-flow: row;
+}
+
+.img{
+    width: 40%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+image{
+    width: 50%;
+    border-radius: 10%;
+}
+
+.name{
+    width:50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    font-size:48rpx
+}
+.name{
+    width:50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    font-size:48rpx
+}
+
+.item{
+    margin-top:20rpx;
+   
+    
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding:30rpx;
+    font-size:40rpx;
+    color: red;
+}
+

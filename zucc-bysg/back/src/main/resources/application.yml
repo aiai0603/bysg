@@ -1,0 +1,23 @@
+server:
+  port: 8803
+
+spring:
+  datasource:
+    url: jdbc:mysql://47.97.158.11:3306/tableCards?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    #url: jdbc:mysql://127.0.0.1:3306/kinect?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    username: root
+    password: Sss991126/
+    #password: zucciot421
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    servlet:
+      multipart:
+        max-file-size: 50MB
+        max-request-size: 200MB
+
+
+
+jwt-config:
+  expire-time: 86400000
+  token-secret: ILikeFitness
+
+
