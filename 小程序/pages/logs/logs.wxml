@@ -1,5 +1,0 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <view bindtap="send">121212
-  </view>
-</view>
