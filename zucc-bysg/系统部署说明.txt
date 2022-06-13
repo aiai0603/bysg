@@ -1,0 +1,5 @@
+前端：进入src文件夹，运行npm run build，把生成的build文件夹放入tomcat的webapps文件夹中即可
+后端：运行maven的package命令，把生成的jar包放入云服务器，运行java -jar命令运行
+小程序：不需要部署
+设备：烧录即可
+已经部署的网址：http://47.97.158.11:8087/card
